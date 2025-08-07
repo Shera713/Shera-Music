@@ -1,0 +1,61 @@
+ @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+ *{
+ padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+     font-family: "Love Light", cursive;
+     color: #0c2b20;
+
+ }
+
+ .row{
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+      display: flex;
+ }
+
+ li{
+    text-decoration: none;
+ }
+
+ #landing{
+    background: #298e6b;
+ }
+
+ /*
+ NAV & LANDING
+ */
+
+ .nav__row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+ }
+
+ .nav__title{
+    font-size: 38px;
+ }
+
+ .nav__links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.nav__link{
+     text-decoration: none;
+    
+ }
+
+ .landing__img--wrapper{
+max-width: 1000px;
+ }
+
+.landing__img{
+width: 50%;
+}
+
+
